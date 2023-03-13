@@ -12,10 +12,12 @@ pipeline{
                bat 'mvn test'
                 }
             }
-        }
-        stage("BUILD .WAR FILE"){
+            stage("BUILD .WAR FILE"){
             steps{
                bat 'mvn package'
                  }
              }
+        }
+        
+   
 }
