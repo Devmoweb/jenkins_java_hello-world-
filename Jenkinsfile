@@ -9,7 +9,7 @@ pipeline{
     stages{
         stage ('test'){
             steps{
-                 bat 'mvn --version'
+                 bat 'mvn test'
             }
         }
     }
