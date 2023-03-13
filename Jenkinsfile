@@ -13,12 +13,9 @@ pipeline{
                 }
             }
         }
-     stages{
         stage("BUILD .WAR FILE"){
             steps{
                bat 'mvn package'
                  }
              }
-        }
-   
 }
