@@ -13,7 +13,6 @@ pipeline{
                 }
             }
         }
-
      stages{
         stage("BUILD .WAR FILE"){
             steps{
